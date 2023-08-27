@@ -1,0 +1,52 @@
+/* Styling for the main container of the home page */
+.home {
+    text-align: center;
+    background-image: url(../images/meal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 24px; /* Adjust the font size for mobile */
+  
+  }
+  
+  .headerContainer {
+    margin: 20px; /* Add margin to give some space around the container */
+    text-align: center;
+  }
+  
+  .headerContainer h1 {
+    color: white;
+  }
+  /* Styling for the header container within the home section */
+
+  strong{
+    text-transform: lowercase;
+    color: red;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .headerContainer h1 +p{
+    font-size: 36px; /* Adjust the font size for mobile */
+    margin-top: 10px; /* Adjust the margin for mobile */
+    font-weight: lighter;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .headerContainer .button {
+    margin-top: 15px; /* Add some space between the headline and the button */
+    text-align: center;
+    color: gray;
+    border-radius: 5px;
+    background-color: azure;
+    border: 2px solid rgb(192, 192, 192);
+    font-size: 18px; /* Adjust the font size for mobile */
+    padding: 10px 20px; /* Add padding for better touch interaction */
+  }
+  
